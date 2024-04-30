@@ -1,6 +1,4 @@
-let nombre = document.getElementById("nombre")
-let primerapellido = document.getElementById("primerapellido")
-let segundoapellido = document.getElementById("segundoapellido")
+let nombrecompleto = document.getElementById("nombrecompleto")
 let telefono = document.getElementById("telefono")
 let correo = document.getElementById("correo")
 let lugarderesidencia = document.getElementById("lugarderesidencia")
@@ -11,14 +9,8 @@ let pasatiempos = document.getElementById("pasatiempos")
 
 function llamar() {
 
-    let nombreL = localStorage.getItem("Nombre")
-    nombre.innerHTML= nombreL;
-
-    let primerapellidoL = localStorage.getItem("PrimerApellido")
-    primerapellido.innerHTML = primerapellidoL;
-
-    let segundoapellidoL = localStorage.getItem("SegundoApellido")
-    segundoapellido.innerHTML = segundoapellidoL;
+    let nombrecompletoL = localStorage.getItem("NombreCompleto")
+    nombrecompleto.innerHTML= nombrecompletoL;
 
     let telefonoL = localStorage.getItem("Telefono")
     telefono.innerHTML = telefonoL;
