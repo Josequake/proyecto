@@ -1,45 +1,58 @@
 h1{
     text-align: center;
     font-size: 45px;
-    font-family: fantasy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
 }
-
 input{
     color: rgb(0, 0, 0);
-    margin-left: 15%;
-    padding-top: 10px;
-    
-    padding-bottom: 10px;
-    padding-left: 10%;
-    padding-right:5%;
-    margin-top: 20px;
-    border-radius: 30px; 
-    
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    margin-left: 30%;
+    border-radius: 20px;
 }
-
-
 ::placeholder{
-    color: rgb(210, 210, 210);
-}
-span:hover + input{
-    display: block;
+    color: rgb(158, 158, 158);
+    font-size: 20px;
 }
 body{
     background-image: url("../imgs/fondo.avif");
     background-size: cover;
 }
-button{
-    color: white;
-    background-color: green;
-    margin-left: 42%;
-    margin-top: 4%;
-    border-radius: 22%;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
+
 
 button:hover{
     background-color: rgb(30, 196, 30);
+}
+
+
+  .bolita{
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 155px;
+    margin-top: 20px;
+    
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+label{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.ileracentral{
+    align-items: center;
+}
+span{
+    background-color: black;
+    color: white;
 }

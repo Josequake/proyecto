@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/proyecto/estilos/style.css">
-    
-    <title>Curriculum</title>
-</head>
-<body>    
-    <h1>Ingresa tus datos para la creacion de un curriculum</h1><hr>
-    <input type="text" placeholder="Nombre completo" id="NOM" autocomplete="off">
-    <input type="text" placeholder="Telefono" id="TE" autocomplete="off">
-    <input type="text" placeholder="Correo" id="CO" autocomplete="off">
-    <input type="text" placeholder="Lugar de residencia" id="LR" autocomplete="off">
-    <input type="text" placeholder="Habilidades Personales" id="HP" autocomplete="off">
-    <input type="text" placeholder="Experiencia laboral" id="EL" autocomplete="off">
-    <input type="text" placeholder="Educacion" id="ED" autocomplete="off">
-    <input type="text" placeholder="Pasatiempos" id="PA" autocomplete="off">
 
-    <div>
-        <a href="http://127.0.0.1:5500/proyecto/index2.html"><button id="boton">Ingresar datos</button></a>
+    <title>Ingresar Datos</title>
+</head>
+
+<body>
+    <h1>Ingresa tus datos para la creacion de un curriculum</h1>
+    <div class="skills">
+        <div>
+            <input type="text" placeholder="Nombre completo" id="NOM" autocomplete="off" class="tooltip">
+            <input type="text" placeholder="Telefono" id="TE" autocomplete="off">
+            <input type="text" placeholder="Correo" id="CO" autocomplete="off">
+            <input type="text" placeholder="Lugar de residencia" id="LR" autocomplete="off">
+            <input type="text" placeholder="Habilidad Personal 1" id="HP1" autocomplete="off">
+            <input type="text" placeholder="Habilidad Personal 2" id="HP2" autocomplete="off">
+            <input type="text" placeholder="Habilidad Personal 3" id="HP3" autocomplete="off">
+        </div>
+        <div>
+        <span>Servicial (01-100):</span>
+        <input type="text" id="por1">
+        <span>Recibir llamadas (01-100):</span>
+        <input type="number" min="01" max="100" id="por2"/>
+        <span>Administracion (01-100):</span>
+        <input type="number" min="01" max="100" id="por3"/>
+        <span>Hablar ante audiencia (01-100):</span>
+        <input type="number" min="01" max="100" id="por4"/>
+        <span>creatividad (01-100):</span>
+        <input type="number" min="01" max="100" id="por5"/>
+        </div>
+        <div>
+            <input type="text" placeholder="Experiencia laboral 1" id="EL1" autocomplete="off">
+            <input type="text" placeholder="Experiencia laboral 2" id="EL2" autocomplete="off">
+            <input type="text" placeholder="Experiencia laboral 3" id="EL3" autocomplete="off">
+            <input type="text" placeholder="Educacion 1" id="ED1" autocomplete="off">
+            <input type="text" placeholder="Educacion 2" id="ED2" autocomplete="off">
+            <input type="text" placeholder="Pasatiempo 1" id="PA1" autocomplete="off">
+            <input type="text" placeholder="Pasatiempo 2" id="PA2" autocomplete="off">
+        </div>
+        
+        <div>
+        </div>
+        
+        <a href="http://127.0.0.1:5500/proyecto/index2.html"><button id="boton" class="bolita">Ingresar
+                datos</button></a>
     </div>
     <script src="./js/script.js"></script>
 </body>
+
 </html>
