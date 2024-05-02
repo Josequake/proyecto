@@ -49,7 +49,7 @@ td{
     font-size: 10px;
 }
 aside{
-    margin-top: 5%;
+    margin-top: 15%;
     margin-left: 50%;
     padding-bottom: 30%;
     width: 45%;
@@ -57,6 +57,7 @@ aside{
 }
 .job{
     float: left;
+    margin-top: 10%;
 }
 ul{
     padding-left: 70px;
@@ -76,13 +77,20 @@ table.th{
 
 .bolita{
     color: black;
-    
+    text-align: center;
+    padding-top: 25px;
     border: 2px solid black;
     width: 80px;
-    height: 80px;
+    height: 50px;
     border-radius: 50%;
     margin-left: 30%;
 }
 span{
     margin-left: 29%;
+}
+
+.datosfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30%;
 }

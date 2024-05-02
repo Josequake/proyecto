@@ -80,3 +80,7 @@ function llamar() {
 
 
 llamar();
+
+function link(){
+    
+}

@@ -7,9 +7,9 @@ h1{
 input{
     color: rgb(0, 0, 0);
     text-align: center;
-    width: 40%;
+    width: 70%;
     height: 30px;
-    margin-left: 30%;
+    margin-left: 13%;
     border-radius: 20px;
 }
 ::placeholder{
@@ -24,21 +24,22 @@ body{
 
 
 button:hover{
+    color: white;
     background-color: rgb(30, 196, 30);
 }
 
 
-  .bolita{
+  /*.bolita{
     background-color: aliceblue;
     border: 2px solid black;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     margin-left: 155px;
-    margin-top: 20px;
+    margin-top: 20px;*/
     
 
-}
+
 .skills{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -55,4 +56,24 @@ label{
 span{
     background-color: black;
     color: white;
+}
+
+button{
+    
+    display: inline-block;
+    padding: 35px 30;
+    color: rgb(30, 196, 30);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-left: 135px;
+    margin-top: 20%;
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+    
 }
