@@ -81,6 +81,10 @@ function llamar() {
 
 llamar();
 
-function link(){
-    
+function whatsapp(){
+
+    let whatsapp = localStorage.getItem("Telefono");
+    window.open("https://wa.me/" + whatsapp)
+
 }
+
